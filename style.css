@@ -32,7 +32,7 @@ main {
 
 .red:hover {
   background-image: radial-gradient(rgb(255, 115, 115), red);
-  box-shadow: 0 0 25px rgb(255, 73, 73);
+  box-shadow: 0 0 35px rgb(255, 73, 73);
 }
 
 .yellow {
@@ -46,7 +46,7 @@ main {
 
 .yellow:hover {
   background-image: radial-gradient(rgb(255, 255, 177), yellow);
-  box-shadow: 0 0 25px rgb(255, 255, 169);
+  box-shadow: 0 0 35px rgb(255, 255, 169);
 }
 
 .green {
@@ -59,6 +59,6 @@ main {
 }
 
 .green:hover {
-  background-image: radial-gradient(rgb(180, 255, 180), rgb(71, 253, 71));
-  box-shadow: 0 0 25px rgb(105, 255, 75);
+  background-image: radial-gradient(rgb(203, 255, 203), rgb(71, 253, 71));
+  box-shadow: 0 0 35px rgb(105, 255, 75);
 }
