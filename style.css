@@ -1,0 +1,62 @@
+body {
+  background: black;
+  text-align: center;
+}
+
+header {
+  background: rgb(90, 90, 90);
+  width: 75px;
+  height: 100px;
+  margin: auto;
+}
+
+main {
+  background: rgb(90, 90, 90);
+  width: 200px;
+  height: 550px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.red {
+  background: red;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin: 25px;
+  transition: all 250ms ease;
+}
+
+.red:hover {
+  background-image: radial-gradient(rgb(255, 115, 115), red);
+  box-shadow: 0 0 25px rgb(255, 73, 73);
+}
+
+.yellow {
+  background: yellow;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin: 25px;
+  transition: all 250ms ease;
+}
+
+.yellow:hover {
+  background-image: radial-gradient(rgb(255, 255, 177), yellow);
+  box-shadow: 0 0 25px rgb(255, 255, 169);
+}
+
+.green {
+  background: rgb(71, 253, 71);
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  margin: 25px;
+  transition: all 250ms ease;
+}
+
+.green:hover {
+  background-image: radial-gradient(rgb(180, 255, 180), rgb(71, 253, 71));
+  box-shadow: 0 0 25px rgb(105, 255, 75);
+}
